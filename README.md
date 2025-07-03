@@ -4,46 +4,46 @@
 
 ### 🔢 Lógica de Programação
 
-- [ ]  Entender tipos de dados (inteiros, floats, strings, booleanos, etc.)
-- [ ]  Declarar e utilizar variáveis
-- [ ]  Operadores de atribuição, aritméticos, comparação e lógicos
-- [ ]  Estruturas condicionais (`if`, `else`, `switch`)
-- [ ]  Estruturas de repetição (`for`, `while`, `do-while`)
-- [ ]  Criar e utilizar funções/métodos (com parâmetros e retorno)
-- [ ]  Resolver problemas simples aplicando algoritmos
-- [ ]  Algoritmos clássicos (máximo, mínimo, soma, média, ordenação simples)
+- [x]  Entender tipos de dados (inteiros, floats, strings, booleanos, etc.)
+- [x]  Declarar e utilizar variáveis
+- [x]  Operadores de atribuição, aritméticos, comparação e lógicos
+- [x]  Estruturas condicionais (`if`, `else`, `switch`)
+- [x]  Estruturas de repetição (`for`, `while`, `do-while`)
+- [x]  Criar e utilizar funções/métodos (com parâmetros e retorno)
+- [x]  Resolver problemas simples aplicando algoritmos
+- [x]  Algoritmos clássicos (máximo, mínimo, soma, média, ordenação simples)
 
 ### ☕ Java — Fundamentos da Linguagem
 
-- [ ]  Sintaxe básica
-- [ ]  Tipos primitivos e variáveis
-- [ ]  Operadores
-- [ ]  Controle de fluxo (`if`, `else`, `switch`)
-- [ ]  Estruturas de repetição (`while`, `for`, `do-while`, `foreach`)
-- [ ]  Métodos: declaração, parâmetros e retorno
-- [ ]  Arrays, listas e manipulação básica de coleções
+- [x]  Sintaxe básica
+- [x]  Tipos primitivos e variáveis
+- [x]  Operadores
+- [x]  Controle de fluxo (`if`, `else`, `switch`)
+- [x]  Estruturas de repetição (`while`, `for`, `do-while`, `foreach`)
+- [x]  Métodos: declaração, parâmetros e retorno
+- [x]  Arrays, listas e manipulação básica de coleções
 - [ ]  Obter dados de uma API (usando `HttpURLConnection` ou bibliotecas como `HttpClient`)
-- [ ]  Criar e utilizar construtores
+- [x]  Criar e utilizar construtores
 
 ### 🧠 Orientação a Objetos (POO)
 
-- [ ]  Entender o conceito de classes e objetos
-- [ ]  Criar classes e objetos
-- [ ]  Utilizar construtores
-- [ ]  Criar e utilizar métodos de instância
-- [ ]  Encapsulamento (getters/setters)
-- [ ]  Herança
-- [ ]  Polimorfismo (sobrecarga e sobrescrita)
-- [ ]  Abstração
-- [ ]  Interfaces
-- [ ]  Classes abstratas
+- [x]  Entender o conceito de classes e objetos
+- [x]  Criar classes e objetos
+- [x]  Utilizar construtores
+- [x]  Criar e utilizar métodos de instância
+- [x]  Encapsulamento (getters/setters)
+- [x]  Herança
+- [x]  Polimorfismo (sobrecarga e sobrescrita)
+- [x]  Abstração
+- [x]  Interfaces
+- [x]  Classes abstratas
 
 ### 🛠️ Manipulação de Erros
 
 - [ ]  Uso de `try`, `catch`, `finally`
 - [ ]  Tratamento de exceções (`Exception`, `RuntimeException`)
-- [ ]  Criar exceções personalizadas
-- [ ]  Lançar exceções (`throw`)
+- [x]  Criar exceções personalizadas
+- [x]  Lançar exceções (`throw`)
 - [ ]  Depuração (debug) no ambiente de desenvolvimento
 
 ### 📦 Coleções em Java
@@ -52,22 +52,22 @@
 - [ ]  ArrayList, LinkedList, HashSet, TreeSet, HashMap, TreeMap
 - [ ]  Iteradores (`for`, `foreach`, `Iterator`, `Stream API`)
 - [ ]  Entender `equals()` e `hashCode()`
-- [ ]  Classes Wrapper (`Integer`, `Double`, `Boolean`, etc.)
+- [x]  Classes Wrapper (`Integer`, `Double`, `Boolean`, etc.)
 
 ### ✅ Testes em Java
 
-- [ ]  Testes unitários (JUnit)
+- [x]  Testes unitários (JUnit)
 - [ ]  Testes de integração
 - [ ]  Testes de comportamento (BDD) com Mockito ou similares
-- [ ]  Criação e uso de Mocks
+- [x]  Criação e uso de Mocks
 
 ### 📁 Organização com Pacotes
 
-- [ ]  Criar pacotes (`package`)
-- [ ]  Usar `import`
+- [x]  Criar pacotes (`package`)
+- [x]  Usar `import`
 - [ ]  Conhecer pacotes fundamentais (`java.lang`, `java.io`, etc.)
 - [ ]  Entender imutabilidade (ex.: classe `String`)
-- [ ]  Entender a classe `java.lang.Object` e seus métodos (`toString()`, `equals()`, `hashCode()`)
+- [x]  Entender a classe `java.lang.Object` e seus métodos (`toString()`, `equals()`, `hashCode()`)
 
 ### 🔗 Estruturas de Dados
 
