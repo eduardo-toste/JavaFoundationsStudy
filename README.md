@@ -136,10 +136,10 @@
 
 ### 🔗 Arquitetura de Microsserviços
 
-- [ ]  Conceitos de microsserviços
-- [ ]  API Gateway
-- [ ]  Comunicação síncrona (HTTP, REST)
-- [ ]  Comunicação assíncrona (mensageria)
+- [x]  Conceitos de microsserviços
+- [x]  API Gateway
+- [x]  Comunicação síncrona (HTTP, REST)
+- [x]  Comunicação assíncrona (mensageria)
 - [ ]  Balanceamento de carga
 - [ ]  Escalabilidade horizontal
 - [ ]  Observabilidade (logs, traces, métricas)
