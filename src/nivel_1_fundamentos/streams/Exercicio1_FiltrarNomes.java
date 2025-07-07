@@ -6,6 +6,11 @@ public class Exercicio1_FiltrarNomes {
     public static void main(String[] args) {
         List<String> nomes = List.of("Ana", "Bruno", "Carlos", "Amanda", "Beatriz");
 
+        nomes.stream()
+                .filter(n -> n.startsWith("A"))
+                .map(n -> n.toUpperCase())
+                .forEach(System.out::println);
+
         // TODO: Filtrar nomes que começam com 'A' e imprimir com letras maiúsculas
     }
 }

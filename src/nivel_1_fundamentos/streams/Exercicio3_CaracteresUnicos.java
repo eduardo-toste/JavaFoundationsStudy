@@ -6,6 +6,8 @@ public class Exercicio3_CaracteresUnicos {
     public static void main(String[] args) {
         List<String> palavras = List.of("banana", "uva", "abacaxi", "banana", "uva");
 
+        palavras.stream().distinct().forEach(System.out::println);
+
         // TODO: Imprimir os elementos distintos da lista
     }
 }
