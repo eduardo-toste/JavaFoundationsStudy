@@ -20,9 +20,9 @@
 - [x]  Criação de classes, atributos e construtores
 - [x]  Sobrecarga e sobrescrita de métodos (`@Override`)
 - [x]  Uso e diferenças entre `interface` e `abstract class`
-- [ ]  Composição, associação e herança entre classes
-- [ ]  Princípios SOLID com exemplos práticos
-- [ ]  Design Patterns: Singleton, Factory, Strategy, Observer, Builder
+- [x]  Composição, associação e herança entre classes
+- [x]  Princípios SOLID com exemplos práticos
+- [x]  Design Patterns: Singleton, Factory, Strategy, Observer, Builder
 
 ---
 
