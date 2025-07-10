@@ -4,8 +4,14 @@ public abstract class Veiculo {
 
     private String modelo;
 
-    public void mover() {
-        System.out.println("Movendo veiculo");
+    public Veiculo(String modelo) {
+        this.modelo = modelo;
     }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public abstract void mover();
 
 }
