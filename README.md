@@ -41,7 +41,7 @@
 
 ## 🧰 Collections e Generics
 
-- [ ]  Interfaces: `List`, `Set`, `Map`, `Queue`
+- [x]  Interfaces: `List`, `Set`, `Map`, `Queue`
 - [ ]  Implementações: `ArrayList`, `LinkedList`, `HashSet`, `TreeSet`, `HashMap`, `TreeMap`, `PriorityQueue`
 - [ ]  Iteração com `for`, `forEach`, `iterator`
 - [ ]  Generics: `<T>`, `<K, V>`, métodos genéricos
@@ -52,14 +52,14 @@
 
 ## 🧪 Java Moderno (Java 8+)
 
-- [ ]  Lambda expressions
-- [ ]  Method references
-- [ ]  Streams API: `filter`, `map`, `collect`, `sorted`, `distinct`, `limit`
+- [x]  Lambda expressions
+- [x]  Method references
+- [x]  Streams API: `filter`, `map`, `collect`, `sorted`, `distinct`, `limit`
 - [ ]  `Collectors.toList()`, `joining()`, `groupingBy()`, `counting()`
 - [ ]  `Optional` com encadeamentos seguros
 - [ ]  API de datas: `LocalDate`, `LocalDateTime`, `Period`, `Duration`
-- [ ]  `var` (Java 10+)
-- [ ]  `Record` (Java 14+)
+- [x]  `var` (Java 10+)
+- [x]  `Record` (Java 14+)
 - [ ]  Parallel Streams (e cuidados com concorrência)
 
 ---
@@ -68,32 +68,32 @@
 
 ### ⚙️ Fundamentos
 
-- [ ]  Estrutura de um projeto Spring Boot
-- [ ]  `@RestController`, `@GetMapping`, `@PostMapping`, etc.
-- [ ]  `@Service`, `@Repository`, `@Autowired`
-- [ ]  `@RequestBody`, `@PathVariable`, `@Valid`
-- [ ]  Separação clara entre camadas
+- [x]  Estrutura de um projeto Spring Boot
+- [x]  `@RestController`, `@GetMapping`, `@PostMapping`, etc.
+- [x]  `@Service`, `@Repository`, `@Autowired`
+- [x]  `@RequestBody`, `@PathVariable`, `@Valid`
+- [x]  Separação clara entre camadas
 
 ### 📦 Spring Data JPA
 
-- [ ]  `@Entity`, `@Id`, `@GeneratedValue`
-- [ ]  Relacionamentos: `@OneToMany`, `@ManyToOne`, `@JoinColumn`
+- [x]  `@Entity`, `@Id`, `@GeneratedValue`
+- [x]  Relacionamentos: `@OneToMany`, `@ManyToOne`, `@JoinColumn`
 - [ ]  Lazy vs Eager loading
-- [ ]  Query Methods, `@Query`, Projections
+- [x]  Query Methods, `@Query`, Projections
 - [ ]  Paginação e ordenação (`Pageable`, `Sort`)
 - [ ]  Specification API ou Criteria API
 
 ### 📜 Validações e Boas práticas
 
-- [ ]  Bean Validation (`@NotBlank`, `@Email`, etc.)
+- [x]  Bean Validation (`@NotBlank`, `@Email`, etc.)
 - [ ]  `@ControllerAdvice` para erros globais
 - [ ]  DTO + Mapper (`ModelMapper`, `MapStruct`, manual)
-- [ ]  Padronização de resposta (`ResponseEntity<>`, DTO de erro)
+- [x]  Padronização de resposta (`ResponseEntity<>`, DTO de erro)
 - [ ]  Separação por módulos ou `package-by-feature`
 
 ### 🗂️ Configurações
 
-- [ ]  `application.yml` e `application.properties`
+- [x]  `application.yml` e `application.properties`
 - [ ]  Perfis com `@Profile`
 - [ ]  `@ConfigurationProperties`
 - [ ]  Externalização com variáveis de ambiente
@@ -120,33 +120,33 @@
 
 ## 🗄️ Banco de Dados
 
-- [ ]  SQL: `SELECT`, `INSERT`, `UPDATE`, `DELETE`
-- [ ]  Cláusulas: `WHERE`, `JOIN`, `GROUP BY`, `ORDER BY`, `HAVING`
-- [ ]  `INNER`, `LEFT`, `RIGHT JOIN`
+- [x]  SQL: `SELECT`, `INSERT`, `UPDATE`, `DELETE`
+- [x]  Cláusulas: `WHERE`, `JOIN`, `GROUP BY`, `ORDER BY`, `HAVING`
+- [x]  `INNER`, `LEFT`, `RIGHT JOIN`
 - [ ]  Transações com `@Transactional`
 - [ ]  Banco em memória (H2)
-- [ ]  Versionamento com Flyway
+- [x]  Versionamento com Flyway
 - [ ]  Indexação, performance e normalização (nível básico)
-- [ ]  MongoDB (NoSQL)
+- [x]  MongoDB (NoSQL)
 
 ---
 
 ## 🌐 APIs REST
 
-- [ ]  Verbos HTTP (GET, POST, PUT, PATCH, DELETE)
+- [x]  Verbos HTTP (GET, POST, PUT, PATCH, DELETE)
 - [ ]  Status codes: 200, 201, 204, 400, 401, 403, 404, 409, 500
 - [ ]  Versionamento de rotas
-- [ ]  Documentação com Swagger/OpenAPI
-- [ ]  DTOs e ResponseEntity corretamente usados
+- [x]  Documentação com Swagger/OpenAPI
+- [x]  DTOs e ResponseEntity corretamente usados
 - [ ]  OpenAPI com `@Schema`, `@Operation`, `@Tag`
 
 ---
 
 ## 🧪 Testes (JUnit + Mockito)
 
-- [ ]  JUnit 5: `@Test`, `@BeforeEach`, `assertEquals`, `assertThrows`
-- [ ]  Mockito: `@Mock`, `@InjectMocks`, `when`, `verify`
-- [ ]  Testes de integração com `@SpringBootTest`
+- [x]  JUnit 5: `@Test`, `@BeforeEach`, `assertEquals`, `assertThrows`
+- [x]  Mockito: `@Mock`, `@InjectMocks`, `when`, `verify`
+- [x]  Testes de integração com `@SpringBootTest`
 - [ ]  MockMvc com validações
 - [ ]  Teste de exceções personalizadas
 - [ ]  Testes de repositório com banco real (ou TestContainers)
@@ -166,13 +166,13 @@
 
 ## 🐙 Git e GitHub
 
-- [ ]  Comandos: `clone`, `add`, `commit`, `push`, `pull`, `checkout`, `merge`
-- [ ]  Fluxo de branches (`main`, `feature/*`, `hotfix/*`)
-- [ ]  Resolução de conflitos simples
-- [ ]  Pull Requests e revisão de código
-- [ ]  Rebase interativo
-- [ ]  Conventional Commits
-- [ ]  README completo com instruções de execução
+- [x]  Comandos: `clone`, `add`, `commit`, `push`, `pull`, `checkout`, `merge`
+- [x]  Fluxo de branches (`main`, `feature/*`, `hotfix/*`)
+- [x]  Resolução de conflitos simples
+- [x]  Pull Requests e revisão de código
+- [x]  Rebase interativo
+- [x]  Conventional Commits
+- [x]  README completo com instruções de execução
 
 ---
 
@@ -190,8 +190,8 @@
 
 ## ✨ Extras para se destacar
 
-- [ ]  Agendamento com `@Scheduled`
-- [ ]  Envio de e-mail com `JavaMailSender` + Thymeleaf
+- [x]  Agendamento com `@Scheduled`
+- [x]  Envio de e-mail com `JavaMailSender` + Thymeleaf
 - [ ]  Integração com APIs reais (Clima, CEP, Google Calendar)
 - [ ]  Geração de PDF ou CSV
 - [ ]  Upload de arquivos
