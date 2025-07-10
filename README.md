@@ -16,10 +16,10 @@
 
 ## 🧱 Orientação a Objetos (OOP)
 
-- [ ]  Conceitos: Encapsulamento, Herança, Polimorfismo, Abstração
-- [ ]  Criação de classes, atributos e construtores
-- [ ]  Sobrecarga e sobrescrita de métodos (`@Override`)
-- [ ]  Uso e diferenças entre `interface` e `abstract class`
+- [x]  Conceitos: Encapsulamento, Herança, Polimorfismo, Abstração
+- [x]  Criação de classes, atributos e construtores
+- [x]  Sobrecarga e sobrescrita de métodos (`@Override`)
+- [x]  Uso e diferenças entre `interface` e `abstract class`
 - [ ]  Composição, associação e herança entre classes
 - [ ]  Princípios SOLID com exemplos práticos
 - [ ]  Design Patterns: Singleton, Factory, Strategy, Observer, Builder
