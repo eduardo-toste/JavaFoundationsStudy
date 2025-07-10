@@ -1,16 +1,16 @@
 ## 🧠 Fundamentos da Linguagem Java
 
-- [ ]  Tipos primitivos vs Wrappers (`int` vs `Integer`)
-- [ ]  Operadores lógicos, relacionais e aritméticos
-- [ ]  Controle de fluxo (`if`, `switch`, `for`, `while`, `do-while`)
-- [ ]  Diferença entre `==` e `.equals()`
-- [ ]  Diferença entre `String`, `StringBuilder`, `StringBuffer`
-- [ ]  Diferença entre `double`, `float` e `BigDecimal`
-- [ ]  Arrays (criação, iteração, ordenação)
-- [ ]  Varargs e sobrecarga de métodos
-- [ ]  Palavras-chave: `final`, `static`, `this`, `super`
-- [ ]  Modificadores de acesso: `public`, `private`, `protected`, `default`
-- [ ]  Package e organização de classes
+- [x]  Tipos primitivos vs Wrappers (`int` vs `Integer`)
+- [x]  Operadores lógicos, relacionais e aritméticos
+- [x]  Controle de fluxo (`if`, `switch`, `for`, `while`, `do-while`)
+- [x]  Diferença entre `==` e `.equals()`
+- [x]  Diferença entre `String`, `StringBuilder`, `StringBuffer`
+- [x]  Diferença entre `double`, `float` e `BigDecimal`
+- [x]  Arrays (criação, iteração, ordenação)
+- [x]  Varargs e sobrecarga de métodos
+- [x]  Palavras-chave: `final`, `static`, `this`, `super`
+- [x]  Modificadores de acesso: `public`, `private`, `protected`, `default`
+- [x]  Package e organização de classes
 
 ---
 
