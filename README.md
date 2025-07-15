@@ -96,7 +96,7 @@
 - [x]  `application.yml` e `application.properties`
 - [ ]  Perfis com `@Profile`
 - [ ]  `@ConfigurationProperties`
-- [ ]  Externalização com variáveis de ambiente
+- [x]  Externalização com variáveis de ambiente
 
 ### 🧪 Testes Spring
 
