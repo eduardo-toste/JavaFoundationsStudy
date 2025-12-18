@@ -188,10 +188,10 @@ Se 1 desses faltar → NÃO marque ainda.
 
 ### O que estudar
 
-- [ ]  Estrutura do projeto
-- [ ]  Controllers e endpoints
-- [ ]  Services e regras de negócio
-- [ ]  Repositories
+- [x]  Estrutura do projeto
+- [x]  Controllers e endpoints
+- [x]  Services e regras de negócio
+- [x]  Repositories
 - [ ]  @RestController vs @Controller
 - [ ]  @Component vs @Service vs @Repository
 - [ ]  Como @SpringBootApplication funciona
