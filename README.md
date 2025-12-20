@@ -220,7 +220,7 @@ Se 1 desses faltar → NÃO marque ainda.
 
 ### O que praticar
 
-- [ ]  Criar DTO de request e response
+- [x]  Criar DTO de request e response
 - [ ]  Validar entrada do usuário
 - [ ]  Testar respostas de erro e sucesso
 
@@ -319,8 +319,8 @@ Se 1 desses faltar → NÃO marque ainda.
 
 ### O que estudar
 
-- [ ]  SELECT, INSERT, UPDATE, DELETE
-- [ ]  WHERE
+- [x]  SELECT, INSERT, UPDATE, DELETE
+- [x]  WHERE
 - [ ]  JOINs
 - [ ]  Group By
 - [ ]  PK vs FK
