@@ -212,10 +212,10 @@ Se 1 desses faltar → NÃO marque ainda.
 
 ### O que estudar
 
-- [ ]  @RequestBody
-- [ ]  @PathVariable
+- [x]  @RequestBody
+- [x]  @PathVariable
 - [ ]  Bean Validation: @NotBlank, @Email, @Pattern, etc.
-- [ ]  @Valid
+- [x]  @Valid
 - [ ]  ResponseEntity
 
 ### O que praticar
