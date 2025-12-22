@@ -359,11 +359,11 @@ Se 1 desses faltar → NÃO marque ainda.
 
 ### O que estudar
 
-- [ ]  add, commit, push, pull
-- [ ]  Branches
-- [ ]  PR
-- [ ]  Resolução de conflitos
-- [ ]  Conventional Commits
+- [x]  add, commit, push, pull
+- [x]  Branches
+- [x]  PR
+- [x]  Resolução de conflitos
+- [x]  Conventional Commits
 
 ### O que praticar
 
