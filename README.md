@@ -221,8 +221,8 @@ Se 1 desses faltar → NÃO marque ainda.
 ### O que praticar
 
 - [x]  Criar DTO de request e response
-- [ ]  Validar entrada do usuário
-- [ ]  Testar respostas de erro e sucesso
+- [x]  Validar entrada do usuário
+- [x]  Testar respostas de erro e sucesso
 
 ### Aplicação no projeto
 
@@ -343,7 +343,7 @@ Se 1 desses faltar → NÃO marque ainda.
 
 - [ ]  Dockerfile
 - [ ]  Docker Compose (Postgres)
-- [ ]  Variáveis `.env`
+- [x]  Variáveis `.env`
 
 ### O que praticar
 
