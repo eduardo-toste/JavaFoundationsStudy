@@ -198,8 +198,8 @@ Se 1 desses faltar → NÃO marque ainda.
 
 ### O que praticar
 
-- [ ]  Criar endpoints CRUD completos com DTOs
-- [ ]  Testar tudo no Postman/Insomnia
+- [x]  Criar endpoints CRUD completos com DTOs
+- [x]  Testar tudo no Postman/Insomnia
 
 ### Aplicação no projeto
 
