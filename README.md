@@ -203,8 +203,8 @@ Se 1 desses faltar → NÃO marque ainda.
 
 ### Aplicação no projeto
 
-- [ ]  Refatorar controllers para limpar regras de negócio
-- [ ]  Padronizar camadas
+- [x]  Refatorar controllers para limpar regras de negócio
+- [x]  Padronizar camadas
 
 ---
 
