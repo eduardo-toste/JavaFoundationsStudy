@@ -262,8 +262,8 @@ Se 1 desses faltar → NÃO marque ainda.
 
 ### O que praticar
 
-- [ ]  Criar novas entidades
-- [ ]  Implementar relacionamento real
+- [x]  Criar novas entidades
+- [x]  Implementar relacionamento real
 
 ### Aplicação no projeto
 
