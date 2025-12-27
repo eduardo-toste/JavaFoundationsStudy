@@ -54,7 +54,7 @@ Se 1 desses faltar → NÃO marque ainda.
 ### O que estudar (teoria)
 
 - [ ]  Encapsulamento, Herança, Polimorfismo, Abstração
-- [ ]  Sobrescrita e sobrecarga
+- [x]  Sobrescrita e sobrecarga
 - [ ]  Interface vs abstract class
 - [ ]  Associação e composição
 - [ ]  SOLID
