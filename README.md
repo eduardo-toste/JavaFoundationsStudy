@@ -214,7 +214,7 @@ Se 1 desses faltar → NÃO marque ainda.
 
 - [x]  @RequestBody
 - [x]  @PathVariable
-- [ ]  Bean Validation: @NotBlank, @Email, @Pattern, etc.
+- [x]  Bean Validation: @NotBlank, @Email, @Pattern, etc.
 - [x]  @Valid
 - [ ]  ResponseEntity
 
