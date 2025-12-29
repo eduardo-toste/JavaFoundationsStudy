@@ -367,8 +367,8 @@ Se 1 desses faltar → NÃO marque ainda.
 
 ### O que praticar
 
-- [ ]  Criar PR explicando mudanças
-- [ ]  Usar conventional commits corretamente
+- [x]  Criar PR explicando mudanças
+- [x]  Usar conventional commits corretamente
 
 ### Aplicação no projeto
 
