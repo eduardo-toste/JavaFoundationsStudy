@@ -267,7 +267,7 @@ Se 1 desses faltar → NÃO marque ainda.
 
 ### Aplicação no projeto
 
-- [ ]  Revisar modelos antigos do FightHub
+- [x]  Revisar modelos antigos do FightHub
 - [ ]  Ajustar relacionamentos incorretos
 
 ---
