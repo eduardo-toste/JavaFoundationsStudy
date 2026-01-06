@@ -54,7 +54,7 @@ Se 1 desses faltar → NÃO marque ainda.
 ### O que estudar (teoria)
 
 - [ ]  Encapsulamento, Herança, Polimorfismo, Abstração
-- [x]  Sobrescrita e sobrecarga
+- [ ]  Sobrescrita e sobrecarga
 - [ ]  Interface vs abstract class
 - [ ]  Associação e composição
 - [ ]  SOLID
@@ -188,23 +188,23 @@ Se 1 desses faltar → NÃO marque ainda.
 
 ### O que estudar
 
-- [x]  Estrutura do projeto
-- [x]  Controllers e endpoints
-- [x]  Services e regras de negócio
-- [x]  Repositories
+- [ ]  Estrutura do projeto
+- [ ]  Controllers e endpoints
+- [ ]  Services e regras de negócio
+- [ ]  Repositories
 - [ ]  @RestController vs @Controller
 - [ ]  @Component vs @Service vs @Repository
 - [ ]  Como @SpringBootApplication funciona
 
 ### O que praticar
 
-- [x]  Criar endpoints CRUD completos com DTOs
-- [x]  Testar tudo no Postman/Insomnia
+- [ ]  Criar endpoints CRUD completos com DTOs
+- [ ]  Testar tudo no Postman/Insomnia
 
 ### Aplicação no projeto
 
-- [x]  Refatorar controllers para limpar regras de negócio
-- [x]  Padronizar camadas
+- [ ]  Refatorar controllers para limpar regras de negócio
+- [ ]  Padronizar camadas
 
 ---
 
@@ -212,17 +212,17 @@ Se 1 desses faltar → NÃO marque ainda.
 
 ### O que estudar
 
-- [x]  @RequestBody
-- [x]  @PathVariable
-- [x]  Bean Validation: @NotBlank, @Email, @Pattern, etc.
-- [x]  @Valid
+- [ ]  @RequestBody
+- [ ]  @PathVariable
+- [ ]  Bean Validation: @NotBlank, @Email, @Pattern, etc.
+- [ ]  @Valid
 - [ ]  ResponseEntity
 
 ### O que praticar
 
-- [x]  Criar DTO de request e response
-- [x]  Validar entrada do usuário
-- [x]  Testar respostas de erro e sucesso
+- [ ]  Criar DTO de request e response
+- [ ]  Validar entrada do usuário
+- [ ]  Testar respostas de erro e sucesso
 
 ### Aplicação no projeto
 
@@ -262,12 +262,12 @@ Se 1 desses faltar → NÃO marque ainda.
 
 ### O que praticar
 
-- [x]  Criar novas entidades
-- [x]  Implementar relacionamento real
+- [ ]  Criar novas entidades
+- [ ]  Implementar relacionamento real
 
 ### Aplicação no projeto
 
-- [x]  Revisar modelos antigos do FightHub
+- [ ]  Revisar modelos antigos do FightHub
 - [ ]  Ajustar relacionamentos incorretos
 
 ---
@@ -319,8 +319,8 @@ Se 1 desses faltar → NÃO marque ainda.
 
 ### O que estudar
 
-- [x]  SELECT, INSERT, UPDATE, DELETE
-- [x]  WHERE
+- [ ]  SELECT, INSERT, UPDATE, DELETE
+- [ ]  WHERE
 - [ ]  JOINs
 - [ ]  Group By
 - [ ]  PK vs FK
@@ -343,7 +343,7 @@ Se 1 desses faltar → NÃO marque ainda.
 
 - [ ]  Dockerfile
 - [ ]  Docker Compose (Postgres)
-- [x]  Variáveis `.env`
+- [ ]  Variáveis `.env`
 
 ### O que praticar
 
@@ -359,16 +359,16 @@ Se 1 desses faltar → NÃO marque ainda.
 
 ### O que estudar
 
-- [x]  add, commit, push, pull
-- [x]  Branches
-- [x]  PR
-- [x]  Resolução de conflitos
-- [x]  Conventional Commits
+- [ ]  add, commit, push, pull
+- [ ]  Branches
+- [ ]  PR
+- [ ]  Resolução de conflitos
+- [ ]  Conventional Commits
 
 ### O que praticar
 
-- [x]  Criar PR explicando mudanças
-- [x]  Usar conventional commits corretamente
+- [ ]  Criar PR explicando mudanças
+- [ ]  Usar conventional commits corretamente
 
 ### Aplicação no projeto
 
