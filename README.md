@@ -1,32 +1,42 @@
-# Java + Spring Study Plan — Correlation-Based
+# ✅ Java + Spring Study Plan — Correlation-Based (Exercise-First)
 
 ---
 
-## How to use (daily)
+## Daily schedule (1–2 hours)
 
-- **Theory (25–40 min):** 1–2 items from the current cluster + 5–10 bullet notes
-- **Practice (25–40 min):** 1 focused exercise/kata
-- **Build (20–40 min):** mini-project increment aligned to the cluster (code + tests + commits)
-- **Explain (2–5 min):** 30–60 second explanation (text/voice)
+### 60 min (minimum)
 
-## Completion rule (for any checkbox)
+- 20m theory (1 checklist item)
+- 35m exercise (one kata)
+- 5m notes (3–5 bullets)
+
+### 90–120 min (ideal)
+
+- 30–40m theory (1–2 items)
+- 40–60m exercise(s)
+- 10–20m micro-build or test-writing
+- 5m recap
+
+---
+
+## Completion rule (per checklist item)
 
 - Understand the theory
-- Solve at least 1 isolated exercise
-- Apply it in a mini-project
+- Solve 1 exercise that uses it
+- Write 1–3 tests for that exercise (when possible)
 - Explain it in 30–60 seconds
 
 ---
 
-# Correlated Clusters (Learning Blocks)
+# CLUSTERS + EXERCISE SETS
 
-## Cluster 1 — Java Foundations (language behavior + correctness)
+## Cluster 1 — Java Foundations
 
-### Theory (from your checklist)
+### Theory checklist
 
 - [ ]  Primitive types and Wrappers
 - [ ]  Autoboxing and Unboxing
-- [ ]  Difference between `==` and `.equals()`
+- [ ]  `==` vs `.equals()`
 - [ ]  Strings (immutability, StringBuilder)
 - [ ]  BigDecimal
 - [ ]  Control flow
@@ -34,313 +44,316 @@
 - [ ]  `final`, `static`, `this`, `super`
 - [ ]  Access modifiers
 - [ ]  Package organization
-- [ ]  Static Binding vs Dynamic Binding
+- [ ]  Static vs dynamic binding
 - [ ]  Shadowing and scope
 - [ ]  Garbage Collector (concept)
 
-### Practice (from your checklist)
+### Exercise set (do 8–12 total)
 
-- [ ]  Build small programs to compare Strings and wrappers
-- [ ]  Implement operations with BigDecimal
-- [ ]  Sort, filter, and manipulate arrays manually
-- [ ]  Demonstrate static binding vs dynamic binding using inheritance
+- [ ]  Build a “truth table” demo: wrappers/Strings with `==` and `.equals()`
+- [ ]  Implement `Money` (BigDecimal) with scale/rounding rules + tests
+- [ ]  CLI menu loop: add/list/remove items (focus on control flow)
+- [ ]  Array utilities: manual filter/map/sort (no streams yet)
+- [ ]  Varargs: build `sum(BigDecimal... values)` + edge cases
+- [ ]  Access modifiers: create 2 packages and prove what is/ isn’t accessible
+- [ ]  `static` vs instance: counter vs per-object state demo
+- [ ]  `this/super`: inheritance constructor chain demo
+- [ ]  Dynamic dispatch demo: base ref → derived method call
+- [ ]  Shadowing demo: local vs field vs inherited field
+- [ ]  GC concept note: explain reachability in your own words (5 bullets)
 
-### Mini-project suggestions (pick 1)
+### Optional micro-build (30–60 min)
 
-- [ ]  **Budget CLI** (BigDecimal + control flow + strings)
-- [ ]  **Text Stats CLI** (strings + arrays + control flow)
+- [ ]  “Budget calculator” as a single class + tests (no persistence)
 
 ---
 
-## Cluster 2 — OOP Design (SOLID + domain modeling)
+## Cluster 2 — OOP + SOLID + Value Objects
 
-### Theory (from your checklist)
+### Theory checklist
 
-- [ ]  Encapsulation, Inheritance, Polymorphism, Abstraction
-- [ ]  Overriding and overloading
+- [ ]  Encapsulation, inheritance, polymorphism, abstraction
+- [ ]  Overriding vs overloading
 - [ ]  Interface vs abstract class
-- [ ]  Association and composition
+- [ ]  Association vs composition
 - [ ]  SOLID
 - [ ]  Cohesion and coupling
 - [ ]  Value Objects
 
-### Practice (from your checklist)
+### Exercise set
 
-- [ ]  Create simple hierarchies (Person → Student/Teacher)
-- [ ]  Create immutable Value Objects
-- [ ]  Refactor project classes applying SOLID
+- [ ]  Create hierarchy Person → Student/Teacher + polymorphism demo
+- [ ]  Implement 2 immutable VOs (Email, ISBN) with validation + tests
+- [ ]  Replace inheritance with composition in a small example (explain why)
+- [ ]  Write one “god class” then refactor into SRP classes
+- [ ]  Design `NotificationService` using interface + implementations
+- [ ]  Cohesion check: split a class that does 3 responsibilities
+- [ ]  SOLID drill: for each principle, write 1 sentence + 1 refactor example
 
-### Mini-project suggestions (pick 1)
+### Optional micro-build
 
-- [ ]  **Library Lending Core** (Book/Member/Loan + rules)
-- [ ]  **Task Manager Core (pure Java)** (Project/Task + rules)
+- [ ]  “Library core rules” (borrow/return) using only in-memory lists + tests
 
 ---
 
-## Cluster 3 — Data Structures & Transformations (Collections + Streams + Optional)
+## Cluster 3 — Collections + Comparator + Big-O + Iteration
 
-### Collections — Theory (from your checklist)
+### Theory checklist
 
-- [ ]  List, Set, Map
-- [ ]  ArrayList, HashSet, HashMap
-- [ ]  Iteration (`for`, `forEach`, `iterator`)
-- [ ]  Comparator and Comparable
+- [ ]  List/Set/Map
+- [ ]  ArrayList/HashSet/HashMap
+- [ ]  Iteration styles
+- [ ]  Comparator/Comparable
 - [ ]  Big-O (concept)
 
-### Collections — Practice (from your checklist)
+### Exercise set
 
-- [ ]  Remove duplicates, sort, and group lists
-- [ ]  Create a list of objects and sort by 2 fields
+- [ ]  Remove duplicates 3 ways (Set, loop, stream later) and compare
+- [ ]  Sort objects by 2 fields using Comparator
+- [ ]  Group and count words using Map
+- [ ]  Build frequency table (Map) + return top N sorted
+- [ ]  Implement “two-sum” (Big-O discussion)
+- [ ]  Iterator removal exercise (safe remove while iterating)
+- [ ]  Comparable vs Comparator: implement both for same object
 
-### Streams + Java 8 — Theory (from your checklist)
+### Optional micro-build
 
-- [ ]  Lambda expressions
-- [ ]  Method references
-- [ ]  Streams: filter, map, collect
+- [ ]  “Log summary” from a list of strings (no file I/O)
+
+---
+
+## Cluster 4 — Streams + Optional + Collectors
+
+### Theory checklist
+
+- [ ]  Lambdas, method references
+- [ ]  Streams filter/map/collect
 - [ ]  Optional
-- [ ]  Collectors: groupingBy, joining
-- [ ]  Solve problems with Streams (like first non-duplicate)
+- [ ]  Collectors groupingBy/joining
+- [ ]  First non-duplicate with streams
 
-### Streams — Practice (from your checklist)
+### Exercise set
 
-- [ ]  Solve: “First non-repeated character using Stream API”
-- [ ]  Create pipelines using map → filter → collect
-- [ ]  Group and count items using groupingBy
+- [ ]  Convert 2 loops into streams (keep it readable)
+- [ ]  groupBy + count (Collectors)
+- [ ]  joining strings with delimiters
+- [ ]  first non-repeated character (streams)
+- [ ]  Optional: rewrite a “null-check chain” into Optional safely
+- [ ]  Pipeline drill: map → filter → collect into DTO-like objects
 
-### Mini-project suggestions (pick 1)
+### Optional micro-build
 
-- [ ]  **Log Analyzer** (Collections + grouping + sorting)
-- [ ]  **Recipe Finder** (Streams + Optional)
-
----
-
-## Cluster 4 — Reuse & Type Safety (Generics)
-
-### Theory (from your checklist)
-
-- [ ]  `<T>`, `<K, V>`
-- [ ]  Wildcards: `<? extends T>`, `<? super T>`
-
-### Practice (from your checklist)
-
-- [ ]  Create generic utility methods
-- [ ]  Implement simple generic DTO converters
-
-### Mini-project suggestions (pick 1)
-
-- [ ]  **Generic Toolkit** (Mapper/Converter + tests)
+- [ ]  “Recipe search” from a list of recipe objects (in-memory)
 
 ---
 
-## Cluster 5 — Reliability (Exceptions mindset)
+## Cluster 5 — Generics
 
-### Theory (from your checklist)
+### Theory checklist
 
-- [ ]  Checked vs Unchecked
-- [ ]  try-catch-finally
+- [ ]  `<T>`, `<K,V>`
+- [ ]  Wildcards `extends/super`
+
+### Exercise set
+
+- [ ]  Generic `Mapper<A,B>` + 2 concrete mappers
+- [ ]  Generic method `List<T> tail(List<T>, int n)`
+- [ ]  Wildcards: method that reads `<? extends Number>`
+- [ ]  Wildcards: method that writes to `<? super Integer>`
+- [ ]  Generic DTO converter exercise (S->T)
+- [ ]  Explain PECS in 3 bullets
+
+### Optional micro-build
+
+- [ ]  Small “utility library” module + tests
+
+---
+
+## Cluster 6 — Exceptions
+
+### Theory checklist
+
+- [ ]  Checked vs unchecked
+- [ ]  try/catch/finally
 - [ ]  throw vs throws
-- [ ]  Custom Exceptions
+- [ ]  Custom exceptions
 
-### Practice (from your checklist)
+### Exercise set
 
-- [ ]  Create custom exceptions
-- [ ]  Throw and handle exceptions correctly
+- [ ]  Create 3 domain exceptions + use them in a small flow
+- [ ]  Wrap lower exception with cause and preserve message
+- [ ]  Convert “return null” API into exception-based API
+- [ ]  Error messages: write clear messages (input + expected)
+- [ ]  finally: resource closing demo (and note about try-with-resources)
 
-### Mini-project suggestions (pick 1)
+### Optional micro-build
 
-- [ ]  **Payment Simulator** (domain errors + consistent messages)
-
----
-
-## Cluster 6 — Concurrency Basics (Multithreading)
-
-### Theory (from your checklist)
-
-- [ ]  What a thread is
-- [ ]  Create threads using `Thread`
-- [ ]  Create threads using `Runnable`
-
-### Practice (from your checklist)
-
-- [ ]  Create a simple parallel task (simulate async sending)
-
-### Mini-project suggestions (pick 1)
-
-- [ ]  **Async Dispatch Simulator** (Thread/Runnable)
+- [ ]  “Payment flow” with success/failure + tests
 
 ---
 
-## Cluster 7 — Spring Boot Web Fundamentals (API basics)
+## Cluster 7 — Multithreading (basic)
 
-### Theory (from your checklist)
+### Theory checklist
+
+- [ ]  What is a thread
+- [ ]  Create threads using Thread
+- [ ]  Create threads using Runnable
+
+### Exercise set
+
+- [ ]  Run 3 tasks in parallel and wait (join)
+- [ ]  Shared counter race condition demo (then fix with synchronized — optional note)
+- [ ]  Runnable vs Thread: same task implemented both ways
+- [ ]  Explain what “non-deterministic” means in 5 bullets
+
+---
+
+## Cluster 8 — Spring Boot Core (Web)
+
+### Theory checklist
 
 - [ ]  Project structure
-- [ ]  Controllers and endpoints
-- [ ]  Services and business rules
+- [ ]  Controllers/endpoints
+- [ ]  Services/business rules
 - [ ]  Repositories
-- [ ]  `@RestController` vs `@Controller`
-- [ ]  `@Component` vs `@Service` vs `@Repository`
-- [ ]  How `@SpringBootApplication` works
+- [ ]  @RestController vs @Controller
+- [ ]  @Component vs @Service vs @Repository
+- [ ]  How @SpringBootApplication works
 
-### Practice (from your checklist)
+### Exercise set (tiny APIs)
 
-- [ ]  Create full CRUD endpoints with DTOs
-- [ ]  Test everything in Postman/Insomnia
-
-### Mini-project suggestions (pick 1)
-
-- [ ]  **Habit Tracker API (v0)**
+- [ ]  Create 1 controller with 2 endpoints (GET/POST)
+- [ ]  Move logic from controller → service
+- [ ]  Repository stub (in-memory) + swap later
+- [ ]  Explain each stereotype annotation in 1 sentence
 
 ---
 
-## Cluster 8 — API Contracts (DTO + Validation) + Error Consistency
+## Cluster 9 — DTO + Validation + ResponseEntity + Global Errors
 
-### DTO + Validation — Theory (from your checklist)
+### Theory checklist
 
-- [ ]  `@RequestBody`
-- [ ]  `@PathVariable`
-- [ ]  Bean Validation: `@NotBlank`, `@Email`, `@Pattern`, etc.
-- [ ]  `@Valid`
-- [ ]  `ResponseEntity`
-
-### DTO + Validation — Practice (from your checklist)
-
-- [ ]  Create request and response DTOs
-- [ ]  Validate user input
-- [ ]  Test success and error responses
-
-### Global Error Handling — Theory (from your checklist)
-
-- [ ]  `@ControllerAdvice`
-- [ ]  `@ExceptionHandler`
+- [ ]  @RequestBody
+- [ ]  @PathVariable
+- [ ]  Bean Validation annotations
+- [ ]  @Valid
+- [ ]  ResponseEntity
+- [ ]  @ControllerAdvice
+- [ ]  @ExceptionHandler
 - [ ]  Error response structure
 
-### Global Error Handling — Practice (from your checklist)
+### Exercise set
 
-- [ ]  Create a global error handler
-- [ ]  Create a standard error response format
-
-### Mini-project suggestions (pick 1)
-
-- [ ]  **Event Booking API (v0)** (DTO + validation + global errors)
+- [ ]  Build request/response DTOs (no entities in controller)
+- [ ]  Add validation rules + test error responses manually
+- [ ]  Create global handler + standard error JSON
+- [ ]  Return correct status codes for 3 cases (400/404/409)
 
 ---
 
-## Cluster 9 — Persistence (JPA + Relationships + Querying)
+## Cluster 10 — Spring Data JPA (Entities/Relationships/Queries/Pagination)
 
-### Entities & Relationships — Theory (from your checklist)
+### Theory checklist
 
-- [ ]  `@Entity`, `@Id`, `@GeneratedValue`
-- [ ]  Relationships: OneToMany, ManyToOne, ManyToMany
-- [ ]  Lazy vs Eager
+- [ ]  @Entity/@Id/@GeneratedValue
+- [ ]  OneToMany/ManyToOne/ManyToMany
+- [ ]  Lazy vs eager
+- [ ]  Query methods
+- [ ]  JPQL basics
+- [ ]  Pageable + Sort
 
-### Entities & Relationships — Practice (from your checklist)
+### Exercise set
 
-- [ ]  Create new entities
-- [ ]  Implement a real relationship
-
-### Queries + Pagination — Theory (from your checklist)
-
-- [ ]  Query Methods
-- [ ]  Basic JPQL
-- [ ]  `Pageable` and `Sort`
-
-### Queries + Pagination — Practice (from your checklist)
-
-- [ ]  Create repository filters
-- [ ]  Implement pagination
-
-### Mini-project suggestions (pick 1)
-
-- [ ]  **Support Tickets API** (filters + pageable + JPQL)
+- [ ]  Create 3 entities with 2 relationships
+- [ ]  Add 2 query methods + 1 JPQL query
+- [ ]  Add pageable listing + sorting
+- [ ]  Explain lazy vs eager with 1 example each
 
 ---
 
-## Cluster 10 — Security (JWT + Roles)
+## Cluster 11 — Security (JWT + Roles)
 
-### Theory (from your checklist)
+### Theory checklist
 
 - [ ]  Authentication vs Authorization
 - [ ]  Roles
 - [ ]  JWT basics
-- [ ]  Filters (general concept)
+- [ ]  Filters concept
 
-### Practice (from your checklist)
+### Exercise set
 
-- [ ]  Implement login + token generation
-- [ ]  Create a public route and a protected route
-
-### Mini-project suggestions (pick 1)
-
-- [ ]  **Notes API (Secured)**
+- [ ]  Login endpoint returns token
+- [ ]  One public route + one protected route
+- [ ]  Role restriction on 1 endpoint
+- [ ]  Explain token flow in 5 bullets
 
 ---
 
-## Cluster 11 — Infra Fundamentals (SQL + Docker + Git)
+## Cluster 12 — SQL + Docker + Git
 
-### SQL — Theory (from your checklist)
+### SQL theory checklist
 
-- [ ]  SELECT, INSERT, UPDATE, DELETE
+- [ ]  SELECT/INSERT/UPDATE/DELETE
 - [ ]  WHERE
 - [ ]  JOINs
 - [ ]  GROUP BY
-- [ ]  Primary Key vs Foreign Key
+- [ ]  PK vs FK
 - [ ]  Indexes
 
-### SQL — Practice (from your checklist)
+### SQL practice checklist
 
-- [ ]  Write SQL queries from scratch
-- [ ]  Create tables and test relationships
+- [ ]  Write 10 queries from scratch
+- [ ]  Create tables + relationships
 
-### Docker — Theory (from your checklist)
+### Docker theory checklist
 
 - [ ]  Dockerfile
 - [ ]  Docker Compose (Postgres)
-- [ ]  `.env` variables
+- [ ]  `.env`
 
-### Docker — Practice (from your checklist)
+### Docker practice checklist
 
-- [ ]  Bring up a complete local environment
+- [ ]  Bring up full local environment
 
-### Git & GitHub — Theory (from your checklist)
+### Git theory checklist
 
-- [ ]  add, commit, push, pull
-- [ ]  Branches
+- [ ]  add/commit/push/pull
+- [ ]  branches
 - [ ]  PR
-- [ ]  Conflict resolution
+- [ ]  conflicts
 - [ ]  Conventional Commits
 
-### Git & GitHub — Practice (from your checklist)
+### Git practice checklist
 
-- [ ]  Create a PR explaining your changes
+- [ ]  Create a PR explaining changes
 - [ ]  Use Conventional Commits correctly
-
-### Mini-project suggestions
-
-- [ ]  Dockerize one of your APIs + write “how to run” docs
-- [ ]  Practice a PR-based workflow in your repo
 
 ---
 
-## Cluster 12 — Extras (Professional polish)
+## Cluster 13 — Extras (Polish)
 
-### Theory (from your checklist)
+### Theory checklist
 
-- [ ]  Logging with SLF4J
+- [ ]  SLF4J logging
 - [ ]  Simple uploads
 - [ ]  Sending emails
-- [ ]  Integration with external APIs
+- [ ]  External API integration
 - [ ]  Simple deploy (Render/Railway)
 
-### Practice (from your checklist)
+### Practice checklist
 
-- [ ]  Create a small external integration module
-- [ ]  Create a scheduled job with `@Scheduled`
-- [ ]  Create standardized logs
+- [ ]  Small external integration module
+- [ ]  Scheduled job with @Scheduled
+- [ ]  Standardized logs
 
-### Mini-project suggestions
+---
 
-- [ ]  Add logs + scheduled job to one API
-- [ ]  Add 1 external integration + 1 simple deploy
+# Add-on Cluster — Testing (recommended to be “above junior”)
+
+- [ ]  JUnit 5: assertions, lifecycle, parameterized tests
+- [ ]  Mockito: mock/stub/verify
+- [ ]  Spring tests: @WebMvcTest, @DataJpaTest, @SpringBootTest
+- [ ]  Practice: write tests for at least 2 exercises in each cluster
 
 ---
