@@ -1,397 +1,346 @@
-### *Inclui teoria, prática e critérios de conclusão para estudo eficiente*
+# Java + Spring Study Plan — Correlation-Based
 
 ---
 
-# 📘 Como usar este guia
+## How to use (daily)
 
-Para marcar um item como concluído, você deve:
+- **Theory (25–40 min):** 1–2 items from the current cluster + 5–10 bullet notes
+- **Practice (25–40 min):** 1 focused exercise/kata
+- **Build (20–40 min):** mini-project increment aligned to the cluster (code + tests + commits)
+- **Explain (2–5 min):** 30–60 second explanation (text/voice)
 
-1. Entender a teoria ✔️
-2. Resolver ao menos 1 exercício isolado ✔️
-3. Aplicar no seu projeto (FightHub ou outro) ✔️
-4. Conseguir explicar em 30–60 segundos ✔️
+## Completion rule (for any checkbox)
 
-Se 1 desses faltar → NÃO marque ainda.
+- Understand the theory
+- Solve at least 1 isolated exercise
+- Apply it in a mini-project
+- Explain it in 30–60 seconds
 
 ---
 
-# 🔷 MÓDULO 1 — Fundamentos de Java + OOP
+# Correlated Clusters (Learning Blocks)
 
-## 1.1 Fundamentos da Linguagem Java
+## Cluster 1 — Java Foundations (language behavior + correctness)
 
-### O que estudar (teoria)
+### Theory (from your checklist)
 
-- [ ]  Tipos primitivos e Wrappers
-- [ ]  Autoboxing e Unboxing
-- [ ]  Diferença entre `==` e `.equals()`
-- [ ]  Strings (imutabilidade, StringBuilder)
+- [ ]  Primitive types and Wrappers
+- [ ]  Autoboxing and Unboxing
+- [ ]  Difference between `==` and `.equals()`
+- [ ]  Strings (immutability, StringBuilder)
 - [ ]  BigDecimal
-- [ ]  Controle de fluxo
-- [ ]  Arrays e varargs
-- [ ]  final, static, this, super
-- [ ]  Modificadores de acesso
-- [ ]  Organização de pacotes
+- [ ]  Control flow
+- [ ]  Arrays and varargs
+- [ ]  `final`, `static`, `this`, `super`
+- [ ]  Access modifiers
+- [ ]  Package organization
 - [ ]  Static Binding vs Dynamic Binding
-- [ ]  Shadowing e escopo
-- [ ]  Garbage Collector (conceito)
+- [ ]  Shadowing and scope
+- [ ]  Garbage Collector (concept)
 
-### O que praticar
+### Practice (from your checklist)
 
-- [ ]  Criar pequenos programas para comparar Strings e wrappers
-- [ ]  Implementar operações com BigDecimal
-- [ ]  Ordenar, filtrar e manipular arrays manualmente
-- [ ]  Demonstrar static binding vs dynamic binding com herança
+- [ ]  Build small programs to compare Strings and wrappers
+- [ ]  Implement operations with BigDecimal
+- [ ]  Sort, filter, and manipulate arrays manually
+- [ ]  Demonstrate static binding vs dynamic binding using inheritance
 
-### Aplicação no projeto
+### Mini-project suggestions (pick 1)
 
-- [ ]  Melhorar Value Objects (CPF, Email, Password) usando imutabilidade
-- [ ]  Aplicar boas práticas de equals/hashCode em entidades
+- [ ]  **Budget CLI** (BigDecimal + control flow + strings)
+- [ ]  **Text Stats CLI** (strings + arrays + control flow)
 
 ---
 
-## 1.2 Orientação a Objetos (OOP)
+## Cluster 2 — OOP Design (SOLID + domain modeling)
 
-### O que estudar (teoria)
+### Theory (from your checklist)
 
-- [ ]  Encapsulamento, Herança, Polimorfismo, Abstração
-- [ ]  Sobrescrita e sobrecarga
+- [ ]  Encapsulation, Inheritance, Polymorphism, Abstraction
+- [ ]  Overriding and overloading
 - [ ]  Interface vs abstract class
-- [ ]  Associação e composição
+- [ ]  Association and composition
 - [ ]  SOLID
-- [ ]  Coesão e acoplamento
+- [ ]  Cohesion and coupling
 - [ ]  Value Objects
 
-### O que praticar
+### Practice (from your checklist)
 
-- [ ]  Criar hierarquias simples (Pessoa → Aluno/Professor)
-- [ ]  Criar Value Objects imutáveis
-- [ ]  Refatorar classes do seu projeto aplicando SOLID
+- [ ]  Create simple hierarchies (Person → Student/Teacher)
+- [ ]  Create immutable Value Objects
+- [ ]  Refactor project classes applying SOLID
 
-### Aplicação no projeto
+### Mini-project suggestions (pick 1)
 
-- [ ]  Melhorar entidades do FightHub aplicando coesão e composição
-- [ ]  Extrair regras para classes específicas (SRP)
+- [ ]  **Library Lending Core** (Book/Member/Loan + rules)
+- [ ]  **Task Manager Core (pure Java)** (Project/Task + rules)
 
 ---
 
-# 🔷 MÓDULO 2 — Collections, Streams e Generics
+## Cluster 3 — Data Structures & Transformations (Collections + Streams + Optional)
 
-## 2.1 Collections
-
-### O que estudar
+### Collections — Theory (from your checklist)
 
 - [ ]  List, Set, Map
 - [ ]  ArrayList, HashSet, HashMap
-- [ ]  Iteração (`for`, `forEach`, `iterator`)
-- [ ]  Comparator e Comparable
-- [ ]  Big-O (conceito)
+- [ ]  Iteration (`for`, `forEach`, `iterator`)
+- [ ]  Comparator and Comparable
+- [ ]  Big-O (concept)
 
-### O que praticar
+### Collections — Practice (from your checklist)
 
-- [ ]  Remover duplicados, ordenar e agrupar listas
-- [ ]  Criar lista de objetos e ordenar por 2 campos
+- [ ]  Remove duplicates, sort, and group lists
+- [ ]  Create a list of objects and sort by 2 fields
 
-### Aplicação no projeto
-
-- [ ]  Melhorar listagens usando Collections corretas
-- [ ]  Refatorar lógica repetitiva com Collections
-
----
-
-## 2.2 Streams + Java 8
-
-### O que estudar
+### Streams + Java 8 — Theory (from your checklist)
 
 - [ ]  Lambda expressions
 - [ ]  Method references
 - [ ]  Streams: filter, map, collect
 - [ ]  Optional
 - [ ]  Collectors: groupingBy, joining
-- [ ]  Resolver problemas com Streams (como first non-duplicate)
+- [ ]  Solve problems with Streams (like first non-duplicate)
 
-### O que praticar
+### Streams — Practice (from your checklist)
 
-- [ ]  Resolver o problema:
-  “Primeiro caractere não repetido usando Stream API”
-- [ ]  Criar pipelines com map → filter → collect
-- [ ]  Agrupar e contar itens usando groupingBy
+- [ ]  Solve: “First non-repeated character using Stream API”
+- [ ]  Create pipelines using map → filter → collect
+- [ ]  Group and count items using groupingBy
 
-### Aplicação no projeto
+### Mini-project suggestions (pick 1)
 
-- [ ]  Refatorar consultas e transformações de listas com Streams
+- [ ]  **Log Analyzer** (Collections + grouping + sorting)
+- [ ]  **Recipe Finder** (Streams + Optional)
 
 ---
 
-## 2.3 Generics
+## Cluster 4 — Reuse & Type Safety (Generics)
 
-### O que estudar
+### Theory (from your checklist)
 
 - [ ]  `<T>`, `<K, V>`
 - [ ]  Wildcards: `<? extends T>`, `<? super T>`
 
-### O que praticar
+### Practice (from your checklist)
 
-- [ ]  Criar métodos genéricos utilitários
-- [ ]  Implementar DTO converters genéricos simples
+- [ ]  Create generic utility methods
+- [ ]  Implement simple generic DTO converters
 
-### Aplicação no projeto
+### Mini-project suggestions (pick 1)
 
-- [ ]  Usar generics para evitar duplicação em mapeadores
+- [ ]  **Generic Toolkit** (Mapper/Converter + tests)
 
 ---
 
-# 🔷 MÓDULO 3 — Exceções + Multithreading
+## Cluster 5 — Reliability (Exceptions mindset)
 
-## 3.1 Exceções
-
-### O que estudar
+### Theory (from your checklist)
 
 - [ ]  Checked vs Unchecked
 - [ ]  try-catch-finally
 - [ ]  throw vs throws
 - [ ]  Custom Exceptions
 
-### O que praticar
+### Practice (from your checklist)
 
-- [ ]  Criar exceções personalizadas
-- [ ]  Lançar e tratar exceções corretamente
+- [ ]  Create custom exceptions
+- [ ]  Throw and handle exceptions correctly
 
-### Aplicação no projeto
+### Mini-project suggestions (pick 1)
 
-- [ ]  Criar exceções específicas para domínios (ex: MatriculaNaoEncontradaException)
-- [ ]  Garantir mensagens claras em erros
-
----
-
-## 3.2 Multithreading (básico)
-
-### O que estudar
-
-- [ ]  O que é uma thread
-- [ ]  Criar threads usando Thread
-- [ ]  Criar threads usando Runnable
-
-### O que praticar
-
-- [ ]  Criar tarefa paralela simples (ex: simular envio async)
-
-### Aplicação no projeto
-
-- [ ]  Avaliar se alguma lógica poderia ser async
-- [ ]  Usar @Async (opcional)
+- [ ]  **Payment Simulator** (domain errors + consistent messages)
 
 ---
 
-# 🔷 MÓDULO 4 — Spring Boot (Core)
+## Cluster 6 — Concurrency Basics (Multithreading)
 
-## 4.1 Fundamentos
+### Theory (from your checklist)
 
-### O que estudar
+- [ ]  What a thread is
+- [ ]  Create threads using `Thread`
+- [ ]  Create threads using `Runnable`
 
-- [ ]  Estrutura do projeto
-- [ ]  Controllers e endpoints
-- [ ]  Services e regras de negócio
+### Practice (from your checklist)
+
+- [ ]  Create a simple parallel task (simulate async sending)
+
+### Mini-project suggestions (pick 1)
+
+- [ ]  **Async Dispatch Simulator** (Thread/Runnable)
+
+---
+
+## Cluster 7 — Spring Boot Web Fundamentals (API basics)
+
+### Theory (from your checklist)
+
+- [ ]  Project structure
+- [ ]  Controllers and endpoints
+- [ ]  Services and business rules
 - [ ]  Repositories
-- [ ]  @RestController vs @Controller
-- [ ]  @Component vs @Service vs @Repository
-- [ ]  Como @SpringBootApplication funciona
+- [ ]  `@RestController` vs `@Controller`
+- [ ]  `@Component` vs `@Service` vs `@Repository`
+- [ ]  How `@SpringBootApplication` works
 
-### O que praticar
+### Practice (from your checklist)
 
-- [ ]  Criar endpoints CRUD completos com DTOs
-- [ ]  Testar tudo no Postman/Insomnia
+- [ ]  Create full CRUD endpoints with DTOs
+- [ ]  Test everything in Postman/Insomnia
 
-### Aplicação no projeto
+### Mini-project suggestions (pick 1)
 
-- [ ]  Refatorar controllers para limpar regras de negócio
-- [ ]  Padronizar camadas
-
----
-
-## 4.2 DTO + Validação
-
-### O que estudar
-
-- [ ]  @RequestBody
-- [ ]  @PathVariable
-- [ ]  Bean Validation: @NotBlank, @Email, @Pattern, etc.
-- [ ]  @Valid
-- [ ]  ResponseEntity
-
-### O que praticar
-
-- [ ]  Criar DTO de request e response
-- [ ]  Validar entrada do usuário
-- [ ]  Testar respostas de erro e sucesso
-
-### Aplicação no projeto
-
-- [ ]  Criar DTOs para módulos antigos
-- [ ]  Centralizar validações
+- [ ]  **Habit Tracker API (v0)**
 
 ---
 
-## 4.3 Tratamento Global de Erros
+## Cluster 8 — API Contracts (DTO + Validation) + Error Consistency
 
-### O que estudar
+### DTO + Validation — Theory (from your checklist)
 
-- [ ]  @ControllerAdvice
-- [ ]  @ExceptionHandler
-- [ ]  Estrutura de erro
+- [ ]  `@RequestBody`
+- [ ]  `@PathVariable`
+- [ ]  Bean Validation: `@NotBlank`, `@Email`, `@Pattern`, etc.
+- [ ]  `@Valid`
+- [ ]  `ResponseEntity`
 
-### O que praticar
+### DTO + Validation — Practice (from your checklist)
 
-- [ ]  Criar error handler global
-- [ ]  Criar formato padrão para respostas de erro
+- [ ]  Create request and response DTOs
+- [ ]  Validate user input
+- [ ]  Test success and error responses
 
-### Aplicação no projeto
+### Global Error Handling — Theory (from your checklist)
 
-- [ ]  Padronizar exceptions em todo o FightHub
+- [ ]  `@ControllerAdvice`
+- [ ]  `@ExceptionHandler`
+- [ ]  Error response structure
+
+### Global Error Handling — Practice (from your checklist)
+
+- [ ]  Create a global error handler
+- [ ]  Create a standard error response format
+
+### Mini-project suggestions (pick 1)
+
+- [ ]  **Event Booking API (v0)** (DTO + validation + global errors)
 
 ---
 
-# 🔷 MÓDULO 5 — Spring Data JPA
+## Cluster 9 — Persistence (JPA + Relationships + Querying)
 
-## 5.1 Entidades e Relacionamentos
+### Entities & Relationships — Theory (from your checklist)
 
-### O que estudar
-
-- [ ]  @Entity, @Id, @GeneratedValue
-- [ ]  Relacionamentos: OneToMany, ManyToOne, ManyToMany
+- [ ]  `@Entity`, `@Id`, `@GeneratedValue`
+- [ ]  Relationships: OneToMany, ManyToOne, ManyToMany
 - [ ]  Lazy vs Eager
 
-### O que praticar
+### Entities & Relationships — Practice (from your checklist)
 
-- [ ]  Criar novas entidades
-- [ ]  Implementar relacionamento real
+- [ ]  Create new entities
+- [ ]  Implement a real relationship
 
-### Aplicação no projeto
-
-- [ ]  Revisar modelos antigos do FightHub
-- [ ]  Ajustar relacionamentos incorretos
-
----
-
-## 5.2 Queries e Paginação
-
-### O que estudar
+### Queries + Pagination — Theory (from your checklist)
 
 - [ ]  Query Methods
-- [ ]  JPQL básico
-- [ ]  Pageable e Sort
+- [ ]  Basic JPQL
+- [ ]  `Pageable` and `Sort`
 
-### O que praticar
+### Queries + Pagination — Practice (from your checklist)
 
-- [ ]  Criar filtros no repositório
-- [ ]  Implementar paginação
+- [ ]  Create repository filters
+- [ ]  Implement pagination
 
-### Aplicação no projeto
+### Mini-project suggestions (pick 1)
 
-- [ ]  Criar listagens paginadas para turmas, alunos, professores
+- [ ]  **Support Tickets API** (filters + pageable + JPQL)
 
 ---
 
-# 🔷 MÓDULO 6 — Segurança (nível júnior avançado)
+## Cluster 10 — Security (JWT + Roles)
 
-## 6.1 Conceitos + JWT
+### Theory (from your checklist)
 
-### O que estudar
-
-- [ ]  Autenticação vs Autorização
+- [ ]  Authentication vs Authorization
 - [ ]  Roles
-- [ ]  JWT básico
-- [ ]  Filters (conceito geral)
+- [ ]  JWT basics
+- [ ]  Filters (general concept)
 
-### O que praticar
+### Practice (from your checklist)
 
-- [ ]  Implementar login + geração de token
-- [ ]  Criar rota pública e rota protegida
+- [ ]  Implement login + token generation
+- [ ]  Create a public route and a protected route
 
-### Aplicação no projeto
+### Mini-project suggestions (pick 1)
 
-- [ ]  Consolidar seu módulo de JWT do FightHub
+- [ ]  **Notes API (Secured)**
 
 ---
 
-# 🔷 MÓDULO 7 — Banco de Dados + Docker + Git
+## Cluster 11 — Infra Fundamentals (SQL + Docker + Git)
 
-## 7.1 SQL
-
-### O que estudar
+### SQL — Theory (from your checklist)
 
 - [ ]  SELECT, INSERT, UPDATE, DELETE
 - [ ]  WHERE
 - [ ]  JOINs
-- [ ]  Group By
-- [ ]  PK vs FK
-- [ ]  Índices
+- [ ]  GROUP BY
+- [ ]  Primary Key vs Foreign Key
+- [ ]  Indexes
 
-### O que praticar
+### SQL — Practice (from your checklist)
 
-- [ ]  Escrever consultas SQL do zero
-- [ ]  Criar tabelas e testar relacionamentos
+- [ ]  Write SQL queries from scratch
+- [ ]  Create tables and test relationships
 
-### Aplicação no projeto
-
-- [ ]  Revisar queries e índices críticos
-
----
-
-## 7.2 Docker
-
-### O que estudar
+### Docker — Theory (from your checklist)
 
 - [ ]  Dockerfile
 - [ ]  Docker Compose (Postgres)
-- [ ]  Variáveis `.env`
+- [ ]  `.env` variables
 
-### O que praticar
+### Docker — Practice (from your checklist)
 
-- [ ]  Subir ambiente local completo
+- [ ]  Bring up a complete local environment
 
-### Aplicação no projeto
-
-- [ ]  Padronizar ambiente do FightHub com Docker
-
----
-
-## 7.3 Git e GitHub
-
-### O que estudar
+### Git & GitHub — Theory (from your checklist)
 
 - [ ]  add, commit, push, pull
 - [ ]  Branches
 - [ ]  PR
-- [ ]  Resolução de conflitos
+- [ ]  Conflict resolution
 - [ ]  Conventional Commits
 
-### O que praticar
+### Git & GitHub — Practice (from your checklist)
 
-- [ ]  Criar PR explicando mudanças
-- [ ]  Usar conventional commits corretamente
+- [ ]  Create a PR explaining your changes
+- [ ]  Use Conventional Commits correctly
 
-### Aplicação no projeto
+### Mini-project suggestions
 
-- [ ]  Padronizar workflow no FightHub
-
----
-
-# 🔷 MÓDULO 8 — Extras que destacam um júnior
-
-### O que estudar
-
-- [ ]  Logs com SLF4J
-- [ ]  Uploads simples
-- [ ]  Envio de e-mail
-- [ ]  Integração com APIs externas
-- [ ]  Deploy simples (Render/Railway)
-
-### O que praticar
-
-- [ ]  Criar pequeno módulo de integração externa
-- [ ]  Criar job com @Scheduled
-- [ ]  Criar logs padronizados
+- [ ]  Dockerize one of your APIs + write “how to run” docs
+- [ ]  Practice a PR-based workflow in your repo
 
 ---
 
-# FIM DO GUIA
+## Cluster 12 — Extras (Professional polish)
+
+### Theory (from your checklist)
+
+- [ ]  Logging with SLF4J
+- [ ]  Simple uploads
+- [ ]  Sending emails
+- [ ]  Integration with external APIs
+- [ ]  Simple deploy (Render/Railway)
+
+### Practice (from your checklist)
+
+- [ ]  Create a small external integration module
+- [ ]  Create a scheduled job with `@Scheduled`
+- [ ]  Create standardized logs
+
+### Mini-project suggestions
+
+- [ ]  Add logs + scheduled job to one API
+- [ ]  Add 1 external integration + 1 simple deploy
+
+---
