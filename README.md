@@ -34,7 +34,7 @@
 
 ### Theory checklist
 
-- [ ]  Primitive types and Wrappers
+- [x]  Primitive types and Wrappers
 - [ ]  Autoboxing and Unboxing
 - [ ]  JVM vs JRE vs JDK
 - [ ]  Access Modifiers
