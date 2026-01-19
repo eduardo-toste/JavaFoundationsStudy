@@ -38,7 +38,7 @@
 - [x]  Autoboxing and Unboxing
 - [ ]  JVM vs JRE vs JDK
 - [ ]  Access Modifiers
-- [ ]  `==` vs `.equals()`
+- [x]  `==` vs `.equals()`
 - [ ]  Strings (immutability, StringBuilder)
 - [ ]  BigDecimal
 - [ ]  Control flow
