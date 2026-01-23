@@ -52,7 +52,7 @@
 
 ### Exercise set (do 8–12 total)
 
-- [ ]  Build a “truth table” demo: wrappers/Strings with `==` and `.equals()`
+- [x]  Build a “truth table” demo: wrappers/Strings with `==` and `.equals()`
 - [ ]  Implement `Money` (BigDecimal) with scale/rounding rules + tests
 - [ ]  CLI menu loop: add/list/remove items (focus on control flow)
 - [ ]  Array utilities: manual filter/map/sort (no streams yet)
