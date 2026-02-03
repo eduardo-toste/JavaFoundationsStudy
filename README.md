@@ -48,7 +48,7 @@
 - [ ]  Package organization
 - [ ]  Static vs dynamic binding
 - [ ]  Shadowing and scope
-- [ ]  Garbage Collector (concept)
+- [x]  Garbage Collector (concept)
 
 ### Exercise set (do 8–12 total)
 
