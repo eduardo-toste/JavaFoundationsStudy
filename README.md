@@ -44,7 +44,6 @@
 - [ ]  Control flow
 - [ ]  Arrays and varargs
 - [ ]  `final`, `static`, `this`, `super`
-- [x]  Access modifiers
 - [ ]  Package organization
 - [ ]  Static vs dynamic binding
 - [ ]  Shadowing and scope
