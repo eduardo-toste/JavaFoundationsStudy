@@ -37,7 +37,7 @@
 - [x]  Primitive types and Wrappers
 - [x]  Autoboxing and Unboxing
 - [x]  JVM vs JRE vs JDK
-- [ ]  Access Modifiers
+- [x]  Access Modifiers
 - [x]  `==` vs `.equals()`
 - [ ]  Strings (immutability, StringBuilder)
 - [ ]  BigDecimal
