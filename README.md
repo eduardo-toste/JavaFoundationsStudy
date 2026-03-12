@@ -39,7 +39,7 @@
 - [x]  JVM vs JRE vs JDK
 - [x]  Access Modifiers
 - [x]  `==` vs `.equals()`
-- [ ]  Strings (immutability, StringBuilder)
+- [x]  Strings (immutability, StringBuilder)
 - [ ]  BigDecimal
 - [ ]  Control flow
 - [ ]  Arrays and varargs
